@@ -2,5 +2,5 @@
 
 Collection of stuff that could be shared[.](https://www.damninteresting.com/ghoulish-acts-dastardly-deeds/)
 
-- docker - presentation about docker
+- docker - intro presentation about docker
 - kubernetes - presentation about k8s
