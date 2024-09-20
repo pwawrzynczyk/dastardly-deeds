@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram id="-x67OcZ-ZaPj4x50-vem" name="v2">
+    <mxGraphModel dx="1134" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="210" width="580" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-2" value="&lt;h1&gt;UI Layer&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="150" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="515" as="sourcePoint" />
+            <mxPoint x="650" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="210" width="580" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-5" value="&lt;h1&gt;API Layer&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="150" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="515" as="sourcePoint" />
+            <mxPoint x="1470" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="210" width="580" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-8" value="&lt;h1&gt;Domain Layer&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="150" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2050" y="515" as="sourcePoint" />
+            <mxPoint x="2290" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2290" y="212" width="791" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-11" value="&lt;h1&gt;Infra Layer&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2290" y="152" width="789" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-13" value="&lt;h2&gt;DA Services&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2816" y="372" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2816" y="432" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-15" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2876" y="572" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-16" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2876" y="482" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-17" value="&lt;div&gt;Frontends&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-18" value="GQL Resolvers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="988" y="477" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-19" value="Business logic services" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Repository &lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;exposes&amp;nbsp;entity-specific methods allowing array-like access. They don&#39;t use the cache themselves, and they don&#39;t care how objects are formatted and if the user requesting them has appropriate permissions.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;CacheRepository &lt;/b&gt;uses a &lt;b&gt;Repository&lt;/b&gt;, adding cache, the interface stays the same OR adds some methods like `getCached`, `updateCached` etc.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2290" y="212" width="791" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-22" value="&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;Helvetica&quot;&gt;Note the cache is added here, NOT in the domain. Why? It&#39;s not a business logic, but it&#39;s connected to data retrieval.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Helvetica&quot;&gt;Resolving subentities, like UnitSwitcher of a revision - 2 options:&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;Helvetica&quot;&gt;Have 2 repositories, for resolved and unresolved revision. From the use case perspective, they might be 2 different entities.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Helvetica&quot;&gt;Resolve at Domain level, having a private (?) method for this.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Technically a repository method shouldn&#39;t immediately save to DB, but Knex doesn&#39;t support a pattern of updating many entities and pushing the changes to DB after.&lt;/li&gt;&lt;li&gt;How to handle pagination? This could be a method accepting pagination parameters (filters, cursor etc) and returning results set along with next cursor, so in the next call the pagination can continue.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2290" y="742" width="791" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-23" value="- Services are called by GQL resolvers and perform business logic, using Repositories and other Services." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="210" width="580" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-24" value="- GQL resolvers just call the services from the domain layer.&lt;br&gt;- Here is our entrypoint, where we compose our dependency graph&lt;div&gt;- Authorization is moved here!&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="210" width="580" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-25" value="Should not be aware of any changes!" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="210" width="580" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-28" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-32" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="948" y="492" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-33" value="&lt;div&gt;// 3R: register resolve release&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;import infraStuff from &#39;infrastructure&#39;;&lt;/div&gt;&lt;div&gt;import domainStuff from &#39;domain&#39;;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;int main() {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;container = new DIContainer()&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;container.register(infraStuff);&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;container.register(domainStuff);&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;registerServices(container);&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;GQL.context.services = {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculatorService: container.resolve(CalculatorService),&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;...&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;container.dispose()&lt;br&gt;}&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;void registerServices(container) {...}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="740" width="580" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-34" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Possible caveat: circular dependencies between various business logic services (there may be &lt;a href=&quot;https://github.com/inversify/InversifyJS/blob/master/wiki/classes_as_id.md#known-limitation-classes-as-identifiers-and-circular-dependencies&quot;&gt;workaround for inversify&lt;/a&gt;)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Currently all (?) our models are class-based. Only some of them have methods or getters - we can either:&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;M&lt;span style=&quot;background-color: initial;&quot;&gt;ove to plain objects (anemic model?). Our objects are mostly immutable during the runtime, most mutations happen with UPDATE db call, so maybe it&#39;s a good approach? We mostly store and get the objects, not modify them.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Try to move more of the logic inside.&amp;nbsp;Is there an overhead connected to creating class instances?&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="740" width="580" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-35" value="&lt;div&gt;N&lt;span style=&quot;background-color: initial;&quot;&gt;o DI knowledge at all in layers other than Domain - the Domain directly imports and registers all needed components.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;There are alternative approaches, but they all require knowledge about DI in other layers.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- &lt;a href=&quot;https://github.com/inversify/InversifyJS/blob/master/wiki/hierarchical_di.md&quot;&gt;Hierarchical DI&lt;/a&gt;: each layer has its own DI container, which is only passed to a container in the layer above.&lt;/div&gt;&lt;div&gt;- Each layer exposes a method that accepts a DI container and registers own components.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="880" y="740" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-39" value="SomeEntityPostgresRepository&lt;div&gt;- ALBO getBySlug&lt;/div&gt;&lt;div&gt;- ALBO getBy(params)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2571" y="364" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-40" value="SomeEntityRedisRepository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2571" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-31" value="Mail Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2364" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-67" value="SomeEntityDataAccessService&lt;div&gt;- getBySlug&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2356" y="468" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aZmDUq6kqiICNAAMJ6-1" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="2313" y="483" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aZmDUq6kqiICNAAMJ6-2" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="2319" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aZmDUq6kqiICNAAMJ6-6" value="Next steps:&lt;div&gt;- POC of a single entity&lt;/div&gt;&lt;div&gt;- in domain as a separate package&lt;/div&gt;&lt;div&gt;-&amp;nbsp;unit_switchers &amp;amp;&amp;nbsp;unit_switchers_translations_pkey prolly&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1350.5" y="1082.5" width="426" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="SPP2BB4EHsvj0JdcIr-X-1" value="Queues&lt;div&gt;- sqs (definitions for board)&lt;/div&gt;&lt;div&gt;- bull (for cron)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2364" y="647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPP2BB4EHsvj0JdcIr-X-2" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="2319" y="662" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPP2BB4EHsvj0JdcIr-X-3" value="Mail Service (user)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1575" y="572" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPP2BB4EHsvj0JdcIr-X-4" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="587" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aDftA2fvFhLpLI_A4hda-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.shield2;" parent="1" vertex="1">
+          <mxGeometry x="745" y="464" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="aDftA2fvFhLpLI_A4hda-5" value="graphql-shield" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="723" y="545" width="127" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
