@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="-x67OcZ-ZaPj4x50-vem" name="v2">
-    <mxGraphModel dx="1134" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2437" dy="808" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
         <mxCell id="ykqDh33xsh7uzJkiVzFd-35" value="&lt;div&gt;N&lt;span style=&quot;background-color: initial;&quot;&gt;o DI knowledge at all in layers other than Domain - the Domain directly imports and registers all needed components.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;There are alternative approaches, but they all require knowledge about DI in other layers.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- &lt;a href=&quot;https://github.com/inversify/InversifyJS/blob/master/wiki/hierarchical_di.md&quot;&gt;Hierarchical DI&lt;/a&gt;: each layer has its own DI container, which is only passed to a container in the layer above.&lt;/div&gt;&lt;div&gt;- Each layer exposes a method that accepts a DI container and registers own components.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=1;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="880" y="740" width="350" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ykqDh33xsh7uzJkiVzFd-39" value="SomeEntityPostgresRepository&lt;div&gt;- ALBO getBySlug&lt;/div&gt;&lt;div&gt;- ALBO getBy(params)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ykqDh33xsh7uzJkiVzFd-39" value="SomeEntityPostgresRepository&lt;div&gt;- OR getBySlug&lt;/div&gt;&lt;div&gt;- OR getBy(params)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2571" y="364" width="218" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ykqDh33xsh7uzJkiVzFd-40" value="SomeEntityRedisRepository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -123,12 +123,6 @@
         </mxCell>
         <mxCell id="SPP2BB4EHsvj0JdcIr-X-2" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="2319" y="662" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SPP2BB4EHsvj0JdcIr-X-3" value="Mail Service (user)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1575" y="572" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SPP2BB4EHsvj0JdcIr-X-4" value="PUBLIC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="587" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDftA2fvFhLpLI_A4hda-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.shield2;" parent="1" vertex="1">
           <mxGeometry x="745" y="464" width="78" height="78" as="geometry" />
